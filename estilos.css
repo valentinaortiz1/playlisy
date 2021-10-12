@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Squada+One&family=Staatliches&display=swap');
+table{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.9em;
+    background: linear-gradient(90deg, rgba(255,2,2,0.3939776594231442) 0%, rgba(227,14,14,0.5368348022802871) 13%, rgba(244,0,0,0.5116247182466737) 46%, rgba(235,0,7,0.37156869583771013) 81%);
+    color: rgb(255, 255, 255);
+    font-family: 'Squada One', cursive;
+    border:5px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+table td{
+    border: 5px solid black;
+}
+
+.fondo{
+    background-image: url('img/fondo.png');
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+}
+.titulo{
+    position: absolute;
+    font-family:'Staatliches', cursive;
+    right: 50px;
+    bottom: 20px;
+    padding: 15px;
+    border-radius: 100px;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,0,0,0.5340336818321079) 0%, rgba(20,3,3,0.6012605725884104) 13%, rgba(0,0,0,0.5704482476584384) 46%, rgba(0,0,0,0.5200280795912116) 81%);
+}
+body{
+    margin: 0;
+    background-image: url('img/natangato.jpg');
+}
+.imagen-album{
+    height: 80px;
+    width: 80px;
+}
+
+
